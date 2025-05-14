@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f0fff0;
+  height: 100%;
+  overflow: hidden;
+  touch-action: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas {
+  display: block;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  max-width: 100vw;
+  max-height: 95vh;
+  width: 100%;
+  height: auto;
+  touch-action: manipulation;
+}
