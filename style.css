@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #f0fff0;
+  height: 100vh;
+  overflow: hidden;
+}
+canvas {
+  display: block;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  margin: auto;
+}
